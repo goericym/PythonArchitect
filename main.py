@@ -6,4 +6,3 @@ if __name__ == '__main__':
     a.dojob()
     b = ACTION('RS232')
     b.dojob()
-    a.aaa()
