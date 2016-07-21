@@ -17,6 +17,7 @@ class ACTION(object):
         format = DATA()
         v2 = format.dedata(v1)
         print 'V2=' + str(v2)
+        return True
 
 
 if __name__ == '__main__':

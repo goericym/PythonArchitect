@@ -9,8 +9,8 @@ class CAN(IInterface):
         return self.v
 
     def write(self, address, data):
-        # self.v = data
-        self.v='wc'
+        self.v = data
+        # self.v='wc'
         return self.v
 
 if __name__ == '__main__':
