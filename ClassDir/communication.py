@@ -15,7 +15,7 @@ class SelectComm(RS232, CAN):
     def GetComm(self):
         return self.obj
 
-if __name__ == '__main__':
+if __name__ == '__main__':# pragma: no cover
     i = SelectComm('CAN')
     c = i.GetComm()
     print c

@@ -13,7 +13,7 @@ class CAN(IInterface):
         # self.v='wc'
         return self.v
 
-if __name__ == '__main__':
+if __name__ == '__main__':# pragma: no cover
     i = CAN()
     i.write(0x2, 0x45)
     i.read(0x2)

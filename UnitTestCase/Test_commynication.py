@@ -18,5 +18,5 @@ class SelectCommTest(unittest.TestCase):
         actual = target.GetComm()  # 實際值
         self.assertEqual(type(expected), type(actual))
 
-if __name__ == '__main__':
+if __name__ == '__main__':# pragma: no cover
     unittest.main()

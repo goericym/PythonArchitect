@@ -18,5 +18,5 @@ class RS232Test(unittest.TestCase):
         actual = target.write(0x3,0x45)  # 實際值
         self.assertEqual(expected, actual)
 
-if __name__ == "__main__":
+if __name__ == "__main__":# pragma: no cover
     unittest.main()

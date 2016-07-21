@@ -18,5 +18,5 @@ class DATATest(unittest.TestCase):
         actual = target.dedata(0x3)  # 實際值
         self.assertEqual(expected, actual)        
 
-if __name__ == '__main__':
+if __name__ == '__main__':# pragma: no cover
     unittest.main()

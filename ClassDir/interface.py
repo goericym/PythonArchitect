@@ -26,7 +26,7 @@ class fakeforTest(IInterface):
     def write(self, address, data):
         self.v = data
         print self.v
-if __name__ == '__main__':
+if __name__ == '__main__':# pragma: no cover
     i = fakeforTest()
     i.write(0x2, 0x45)
     i.read(0x2)
